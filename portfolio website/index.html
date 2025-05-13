@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon Musk | Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='images/elon_logo.svg') }}" type="image/svg+xml">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="./images/cronysoft logo 2-01.png" alt="Elon Musk Logo">
+                </a>
+            </div>
+            <nav id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                    <li><a href="#companies" class="nav-link">Companies</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Elon Musk</h1>
+                <p class="subtitle">Entrepreneur, Visionary, Engineer</p>
+                <p class="description">Revolutionizing transportation on Earth and beyond.</p>
+                <div class="hero-btns">
+                    <a href="#about" class="btn btn-primary">Learn More</a>
+                    <a href="#companies" class="btn btn-secondary">My Companies</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://twitter.com/elonmusk" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/elonmusk/" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/elonmusk/" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    <!-- scroll -->
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="./images/about.jpg" alt="Elon Musk">
+                </div>
+                <div class="about-text">
+                    <h3>Entrepreneur & Engineer</h3>
+                    <p>I'm Elon Musk, a technology entrepreneur, investor, and engineer. Born in South Africa, I developed a passion for technology at a young age. I founded X.com, which later became PayPal, and went on to create SpaceX, Tesla, Neuralink, and The Boring Company.</p>
+                    <p>My mission is to make humanity interplanetary, accelerate the transition to sustainable energy, and connect the human brain with artificial intelligence.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>Born: June 28, 1971</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Pretoria, South Africa</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>University of Pennsylvania</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Career Timeline</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">1995</div>
+                        <h3>Zip2 Corporation</h3>
+                        <p>Founded Zip2, a company that provided maps and business directories to online newspapers.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">1999</div>
+                        <h3>X.com (PayPal)</h3>
+                        <p>Co-founded X.com, an online financial services and payment company which later became PayPal.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2002</div>
+                        <h3>SpaceX</h3>
+                        <p>Founded Space Exploration Technologies Corp (SpaceX) with the goal of reducing space transportation costs and enabling the colonization of Mars.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2004</div>
+                        <h3>Tesla</h3>
+                        <p>Joined Tesla Motors as chairman and product architect, becoming CEO in 2008. Focused on producing affordable, mass-market electric vehicles.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2016</div>
+                        <h3>Neuralink</h3>
+                        <p>Co-founded Neuralink, a neurotechnology company developing implantable brain–machine interfaces.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2016</div>
+                        <h3>The Boring Company</h3>
+                        <p>Founded The Boring Company to construct tunnels to reduce urban traffic and enable high-speed transportation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022</div>
+                        <h3>Twitter/X</h3>
+                        <p>Acquired Twitter (now X) to transform it into an "everything app" with a focus on free speech and innovative features.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Companies Section -->
+    <section id="companies" class="companies section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Companies</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="companies-grid">
+                <!-- Tesla -->
+                <div class="company-card">
+                    <div class="company-img">
+                        <img src="./images/tesla.jpg" alt="Tesla">
+                    </div>
+                    <div class="company-info">
+                        <h3>Tesla</h3>
+                        <p>Accelerating the world's transition to sustainable energy through electric vehicles, solar power, and energy storage solutions.</p>
+                        <a href="https://www.tesla.com" target="_blank" class="btn btn-outline">Visit Website</a>
+                    </div>
+                </div>
+                
+                <!-- SpaceX -->
+                <div class="company-card">
+                    <div class="company-img">
+                        <img src="./images/space x.jpg" alt="SpaceX">
+                    </div>
+                    <div class="company-info">
+                        <h3>SpaceX</h3>
+                        <p>Designing, manufacturing and launching advanced rockets and spacecraft with the ultimate goal of enabling people to live on other planets.</p>
+                        <a href="https://www.spacex.com" target="_blank" class="btn btn-outline">Visit Website</a>
+                    </div>
+                </div>
+                
+                <!-- X (Twitter) -->
+                <div class="company-card">
+                    <div class="company-img x-logo">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="company-info">
+                        <h3>X (Twitter)</h3>
+                        <p>Transforming social media to become the world's digital town square and a platform for everything communication, finance, and beyond.</p>
+                        <a href="https://twitter.com" target="_blank" class="btn btn-outline">Visit Website</a>
+                    </div>
+                </div>
+                
+                <!-- Neuralink -->
+                <div class="company-card">
+                    <div class="company-img neuralink-logo">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="company-info">
+                        <h3>Neuralink</h3>
+                        <p>Developing ultra high bandwidth brain-machine interfaces to connect humans and computers, with the aim of helping people with brain injuries.</p>
+                        <a href="https://neuralink.com" target="_blank" class="btn btn-outline">Visit Website</a>
+                    </div>
+                </div>
+                
+                <!-- The Boring Company -->
+                <div class="company-card">
+                    <div class="company-img boring-logo">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <div class="company-info">
+                        <h3>The Boring Company</h3>
+                        <p>Creating safe, fast-to-dig, and low-cost transportation tunnels to solve the problem of soul-destroying traffic in major cities.</p>
+                        <a href="https://www.boringcompany.com" target="_blank" class="btn btn-outline">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Skills & Expertise</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3>A combination of technical & business acumen</h3>
+                    <p>My broad skill set spans engineering, physics, business, and innovation, enabling me to disrupt multiple industries simultaneously. I believe in first principles thinking, which allows me to break down complex problems and approach them from unique angles.</p>
+                    <p>As a leader, I focus on ambitious goals, rapid iteration, and vertical integration, often challenging conventional wisdom in the industries I enter.</p>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Engineering & Design</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Business Strategy</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Innovation</span>
+                            <span>98%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 98%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Physics & Mathematics</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Software Development</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Leadership</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <div class="expertise-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Aerospace Engineering</h3>
+                    <p>Revolutionizing space travel with reusable rockets and Mars colonization plans.</p>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Electric Vehicles</h3>
+                    <p>Pioneering sustainable transportation and autonomous driving technology.</p>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Renewable Energy</h3>
+                    <p>Creating innovative solar solutions and energy storage systems.</p>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neural Technology</h3>
+                    <p>Developing brain-machine interfaces to enhance human capabilities.</p>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Media & Communications</h3>
+                    <p>Transforming social media and digital communication platforms.</p>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Visionary Leadership</h3>
+                    <p>Inspiring teams to achieve seemingly impossible goals across industries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/cronysoft logo 2-01.png" alt="Elon Musk Logo">
+                    <p>Elon Musk</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://twitter.com/elonmusk" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/elonmusk/" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/elonmusk/" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Elon Musk. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
